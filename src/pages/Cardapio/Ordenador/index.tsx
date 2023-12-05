@@ -1,13 +1,17 @@
-import { useState } from "react";
+import {useState } from "react";
 import styles from "./Ordenador.module.scss";
 import opcoes from "./opcoes.json";
 import classNames from "classnames";
 import { MdKeyboardArrowDown, MdKeyboardArrowUp } from "react-icons/md";
 
+
 interface Props {
     ordenador: string;
     setOrdenador:  React.Dispatch<React.SetStateAction<string>>
 }
+
+
+
 
 export const Ordenador = ({ordenador, setOrdenador}: Props) => {
   const [aberto, setAberto] = useState(false);
@@ -37,7 +41,7 @@ export const Ordenador = ({ordenador, setOrdenador}: Props) => {
         })}
       >
         {opcoes.map((opcao) => (
-          <div className={styles.ordenador__option} key={opcao.value} onClick={() =>setOrdenador(opcao.value)}>
+          <div className={styles.ordenador__option} key={opcao.value} onClick={() => setOrdenador(opcao.value)}>
             {opcao.nome}
           </div>
         ))}

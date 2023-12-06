@@ -1,46 +1,107 @@
-# Getting Started with Create React App
+# Aluroni
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Uma cardápio  digital
 
-## Available Scripts
+## Documentação
 
-In the project directory, you can run:
+- [Documentação](#)
+- [Sobre o projeto](#sobre-o-projeto)
+- [Design System](#design-system)
+- [Tecnologias Principais](#tecnologias-principais)
+- [Ferramentas](#ferramentas)
+- [Aplicação](#aplicação)
+- [Desenvolvedor](#desenvolvedor)
+- [Executando o projeto localmente](#executando-o-projeto-localmente)
 
-### `npm start`
+## Sobre o projeto
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Projeto desenvolvido no curso da Alura de React.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## Objetivos principais
 
-### `npm test`
+Desenvolver com React uma plataforma web funcional.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### VISUALIZAÇÃO DE CONTEÚDO
 
-### `npm run build`
+- Visualização de todos os pratos
+- Filtro por categorias
+- Filtro por pesquisas
+- Filtro por ordenação de porção, qtd. pessoas ou preço
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Proposta
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Entregar um produto moderno, funcional e intuitivo onde o usuário possa selecionar suas comidas favoritas com facilidade !
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Design System
 
-### `npm run eject`
+Utilizei alguns conceitos e ferramentas para padronizar várias etapas do projeto.
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+- **Aplicação das regras e padrões**: ESLint
+- **Formatação automática com base nas regras**: Prettier
+- **Gitflow**: Padrão de commits: Convencional Commits
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Tecnologias Principais
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+[![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript)
+[![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
+[![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)](https://pt-br.legacy.reactjs.org/)
+[![css](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)](https://developer.mozilla.org/pt-BR/docs/Web/CSS)
+[![css](https://img.shields.io/badge/Sass-CC6699?style=for-the-badge&logo=sass&logoColor=white)](https://sass-lang.com/)
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+## Ferramentas
 
-## Learn More
+- NPM
+- Git
+- Gitflow
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Aplicação
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+### Telas de Desktop
+
+<p align="center">
+  <img src="src/assets/gif/aluroni.gif" alt="Imagem exibindo a versão desktop  do site" width="350">
+</p>
+
+
+
+## Desenvolvedor
+
+<table align="center">
+    <tr>  
+        <td align="center">
+            <div>
+                <img src="https://avatars.githubusercontent.com/u/110488969?v=4"width="120px;" alt="Foto de Kelvin no GitHub"/><br>
+                    <b> Kelvin Charles  </b><br>
+                        <a href="https://www.linkedin.com/in/kelvin-charles/" alt="Linkedin"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" height="20"></a>
+                        <a href="https://github.com/kelvincharlesdev" alt="GitHub"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" height="20"></a>
+            </div>
+        </td>          
+</table>
+
+## Executando o projeto localmente
+
+> Projeto iniciado usando npm craete-react-app.
+
+- Clone o projeto com
+
+  > git clone https://github.com/kelvincharlesdev/aluroni.git
+
+- Vá para a raiz do diretório
+
+  > cd aluroni
+
+- Instale as dependências
+
+  > npm install
+
+- Inicie o servidor local
+
+  > npm start
+
+- Analisar erros padrões com ESLint
+
+  > npm run lint
+
+- Formata código corretamente
+
+  > npm run format
